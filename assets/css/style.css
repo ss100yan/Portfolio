@@ -42,4 +42,40 @@ body
             height: 5px;
             width: 100%;
         }
-        
+
+
+        /* Contact me */
+        .form-control {
+         width: 550%;
+       }
+
+
+       /* Porfolio */
+       
+.work:nth-child(even) {
+   margin-right: 20px;
+ }
+ 
+ .work img {
+   width: 30%;
+   height: 20%;
+   border: 0 none;
+  
+ }
+ 
+ .work h5 {
+   position: relative;
+   bottom: 20px;
+   width: 30%;
+   padding: 15px;
+   margin-bottom: 0;
+   font-weight: 300;
+   line-height: 0px;
+   color: #ffffff;
+   text-align: center;
+   background: #4aaaa5;
+   border-bottom: 0;
+ }
+ 
+ 
+ 
