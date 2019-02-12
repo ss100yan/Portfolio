@@ -1,20 +1,23 @@
 $(document).ready(function() {
+   
+    $('.sidenav').sidenav();
+
     $("#container2").hide();
     $("#container3").hide();
        
     
-    $("#Portfolio").click(function(){
+    $(".Portfolio").click(function(){
     $("#container").hide();
     $("#container2").hide();
     $("#container3").show();
   });
   
-  $("#About").click(function(){
+  $(".About").click(function(){
     $("#container").show();
     $("#container2").hide();
     $("#container3").hide();
   });
-  $("#Contact").click(function(){
+  $(".Contact").click(function(){
     $("#container2").show();
     $("#container").hide();
     $("#container3").hide();
