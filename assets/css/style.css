@@ -1,11 +1,11 @@
-.container
+/* .container
 {
  background-color: white;
  
-}
-#container{
+} */
+/* #container{
    background-color: #ebebeb;
-}
+} */
 .navbar {
    padding: 0;
    
@@ -23,23 +23,16 @@ body
         color: #4AAAA5;
      }
   
+     /* body {
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
+    } */
   
-        .footer {
-         position: fixed;
-         bottom: 0;
-         width: 100%;
-         height: 60px;
-         line-height: 60px;
-         background-color: #666666;
-         
-     }
-            
-          #top {
-            background-color: #4AAAA5;
-            height: 5px;
-            width: 100%;
-        }
-
+    main {
+      flex: 1 0 auto;
+    }
+     
 
         /* Contact me */
         .form-control {
