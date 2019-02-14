@@ -17,9 +17,9 @@ body
    
       background-image:url(gravel.png);
       font-size: 18px;
-      /* display: flex; */
-      /* min-height: 100vh; */
-      /* flex-direction: column; */
+      display: flex;
+      min-height: 100vh;
+      flex-direction: column;
      }
      #Heading
      {
