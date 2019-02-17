@@ -1,11 +1,4 @@
-/* .container
-{
- background-color: white;
- 
-} */
-/* #container{
-   background-color: #ebebeb;
-} */
+
 .navbar {
    padding: 0;
    
@@ -17,9 +10,9 @@ body
    
       background-image:url(gravel.png);
       font-size: 18px;
-      /* display: flex;
+      display: flex;
       min-height: 100vh; 
-      flex-direction: column; */
+      flex-direction: column;
      }
      #Heading
      {
@@ -33,10 +26,7 @@ body
     }
      
 
-        /* Contact me */
-        .form-control {
-         width: 550%;
-       }
+     
 
 
        /* Porfolio */
